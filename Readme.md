@@ -95,7 +95,7 @@ export default function App(){
 <h2>Greet.js</h2>
 
 <p>
-
+```
 
 import { View,Text } from "react-native";
 
@@ -126,12 +126,14 @@ import  Greet from "./components/Greet";
 import { View,Alert, Text,Image,ImageBackground,ScrollView, Button,Pressable, Modal } from "react-native";
 
 
-
+```
 
 </p>
 
 <h1> Stylesheet</h1>
 <p>
+
+'''
 import { View,Text,StyleSheet } from "react-native";
 
 export default function App() {
@@ -149,5 +151,6 @@ const styles = StyleSheet.create({
   title:{textAlign:"center",fontWeight:"bold",fontSize:20}
 
 })
+'''
 
 </p>
